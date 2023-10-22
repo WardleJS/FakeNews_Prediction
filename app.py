@@ -11,7 +11,7 @@ model = joblib.load("best_model.pkl")
 st.title("Predict Fake News")
 
 # Input text
-text = st.text_input("Enter the news article:")
+text = st.text_input("Enter the news article: (please note an article is required not just a title)")
 
 # Button to run inference
 if st.button("Predict"):
