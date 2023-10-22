@@ -31,3 +31,6 @@ if st.button("Predict"):
 # Add a link to BBC News
 st.markdown("[BBC News](https://www.bbc.com/news)")
 st.markdown("[ITV News](https://www.itv.com/news)")
+
+st.markdown("[You can find the dataset this model was built on here, and try out some of the fake news stories if!](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification)")
+
