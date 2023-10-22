@@ -27,3 +27,7 @@ if st.button("Predict"):
         st.write("The news article is fake.")
     else:
         st.write("The news article is real.")
+
+# Add a link to BBC News
+st.markdown("[BBC News](https://www.bbc.com/news)")
+st.markdown("[ITV News](https://www.itv.com/news)")
